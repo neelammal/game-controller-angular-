@@ -1,0 +1,15 @@
+<div class="first"><br>
+    <h1 class="gc">Game-Control </h1>
+    <button class="bgc1" mat-raised-button color="accent" (click)="onStart()">start</button>
+    <button class="bgc2" mat-raised-button color="primary" (click)="onStop()">stop</button>
+    <!-- number is {{number}} where even number is{{even}} odd number is{{odd}}
+<div *ngFor="let item of numberList">
+    {{item}}
+</div>-->
+</div>
+
+
+<div class="container">
+    <app-even class="eve1" [nEven]="even"></app-even>
+    <app-odd class="eve2" [nOdd]="odd"></app-odd>
+</div>

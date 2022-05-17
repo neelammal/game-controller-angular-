@@ -1,0 +1,50 @@
+.first {
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.eve1 {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.eve2 {
+    margin-top: 6%;
+    margin-left: 20%;
+}
+
+.ec {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.eo {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.gc {
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.bgc1 {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 20%;
+}
+
+.bgc2 {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 20%;
+}
